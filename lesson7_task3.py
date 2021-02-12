@@ -20,8 +20,7 @@ def mediana(arr):
             left_iter += 1
             is_left = not is_left
             is_right = not is_right
-
-        if is_right:
+        elif is_right:
             idx = len(arr) - 1 - right_iter
             right_iter += 1
             is_left = not is_left
